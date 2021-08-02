@@ -1,0 +1,239 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ArrayToTensor	custom_transforms.py	/^class ArrayToTensor(object):$/;"	c
+AverageMeter	logger.py	/^class AverageMeter(object):$/;"	c
+B	models/DispResNet.py	/^    B = 12$/;"	v	class:DispResNet
+COLORMAPS	utils.py	/^COLORMAPS = {'rainbow': opencv_rainbow(),$/;"	v
+Compose	custom_transforms.py	/^class Compose(object):$/;"	c
+Conv3x3	models/DispResNet.py	/^class Conv3x3(nn.Module):$/;"	c
+ConvBlock	models/DispResNet.py	/^class ConvBlock(nn.Module):$/;"	c
+DepthDecoder	models/DispResNet.py	/^class DepthDecoder(nn.Module):$/;"	c
+DepthEvalEigen	eval_depth.py	/^class DepthEvalEigen():$/;"	c
+DispResNet	models/DispResNet.py	/^class DispResNet(nn.Module):$/;"	c
+KittiEvalOdom	kitti_eval/kitti_odometry.py	/^class KittiEvalOdom():$/;"	c
+KittiOdomLoader	data/kitti_odom_loader.py	/^class KittiOdomLoader(object):$/;"	c
+KittiRawLoader	data/kitti_raw_loader.py	/^class KittiRawLoader(object):$/;"	c
+Normalize	custom_transforms.py	/^class Normalize(object):$/;"	c
+PairFolder	datasets/pair_folders.py	/^class PairFolder(data.Dataset):$/;"	c
+PoseDecoder	models/PoseResNet.py	/^class PoseDecoder(nn.Module):$/;"	c
+PoseResNet	models/PoseResNet.py	/^class PoseResNet(nn.Module):$/;"	c
+RandomHorizontalFlip	custom_transforms.py	/^class RandomHorizontalFlip(object):$/;"	c
+RandomScaleCrop	custom_transforms.py	/^class RandomScaleCrop(object):$/;"	c
+ResNetMultiImageInput	models/resnet_encoder.py	/^class ResNetMultiImageInput(models.ResNet):$/;"	c
+ResnetEncoder	models/resnet_encoder.py	/^class ResnetEncoder(nn.Module):$/;"	c
+SSIM	loss_functions.py	/^class SSIM(nn.Module):$/;"	c
+SequenceFolder	datasets/sequence_folders.py	/^class SequenceFolder(data.Dataset):$/;"	c
+TermLogger	logger.py	/^class TermLogger(object):$/;"	c
+ValidationSet	datasets/validation_folders.py	/^class ValidationSet(data.Dataset):$/;"	c
+Writer	logger.py	/^class Writer(object):$/;"	c
+__call__	custom_transforms.py	/^    def __call__(self, images, intrinsics):$/;"	m	class:ArrayToTensor	file:
+__call__	custom_transforms.py	/^    def __call__(self, images, intrinsics):$/;"	m	class:Compose	file:
+__call__	custom_transforms.py	/^    def __call__(self, images, intrinsics):$/;"	m	class:Normalize	file:
+__call__	custom_transforms.py	/^    def __call__(self, images, intrinsics):$/;"	m	class:RandomHorizontalFlip	file:
+__call__	custom_transforms.py	/^    def __call__(self, images, intrinsics):$/;"	m	class:RandomScaleCrop	file:
+__getitem__	datasets/pair_folders.py	/^    def __getitem__(self, index):$/;"	m	class:PairFolder	file:
+__getitem__	datasets/sequence_folders.py	/^    def __getitem__(self, index):$/;"	m	class:SequenceFolder	file:
+__getitem__	datasets/validation_folders.py	/^    def __getitem__(self, index):$/;"	m	class:ValidationSet	file:
+__init__	custom_transforms.py	/^    def __init__(self, mean, std):$/;"	m	class:Normalize
+__init__	custom_transforms.py	/^    def __init__(self, transforms):$/;"	m	class:Compose
+__init__	data/cityscapes_loader.py	/^    def __init__(self,$/;"	m	class:cityscapes_loader
+__init__	data/kitti_odom_loader.py	/^    def __init__(self,$/;"	m	class:KittiOdomLoader
+__init__	data/kitti_raw_loader.py	/^    def __init__(self,$/;"	m	class:KittiRawLoader
+__init__	datasets/pair_folders.py	/^    def __init__(self, root, seed=None, train=True, transform=None):$/;"	m	class:PairFolder
+__init__	datasets/sequence_folders.py	/^    def __init__(self, root, seed=None, train=True, sequence_length=3, transform=None, skip_frames=1, dataset='kitti'):$/;"	m	class:SequenceFolder
+__init__	datasets/validation_folders.py	/^    def __init__(self, root, transform=None, dataset='nyu'):$/;"	m	class:ValidationSet
+__init__	eval_depth.py	/^    def __init__(self):$/;"	m	class:DepthEvalEigen
+__init__	kitti_eval/kitti_odometry.py	/^    def __init__(self):$/;"	m	class:KittiEvalOdom
+__init__	kitti_eval/pose_evaluation_utils.py	/^    def __init__(self, root, sequence_set, seq_length=3, step=1):$/;"	m	class:test_framework_KITTI
+__init__	logger.py	/^    def __init__(self, i=1, precision=3):$/;"	m	class:AverageMeter
+__init__	logger.py	/^    def __init__(self, n_epochs, train_size, valid_size):$/;"	m	class:TermLogger
+__init__	logger.py	/^    def __init__(self, t, location):$/;"	m	class:Writer
+__init__	loss_functions.py	/^    def __init__(self):$/;"	m	class:SSIM
+__init__	models/DispResNet.py	/^    def __init__(self, in_channels, out_channels):$/;"	m	class:ConvBlock
+__init__	models/DispResNet.py	/^    def __init__(self, in_channels, out_channels, use_refl=True):$/;"	m	class:Conv3x3
+__init__	models/DispResNet.py	/^    def __init__(self, num_ch_enc, scales=range(4), num_output_channels=1, use_skips=True):$/;"	m	class:DepthDecoder
+__init__	models/DispResNet.py	/^    def __init__(self, num_layers = 18, pretrained = True):$/;"	m	class:DispResNet
+__init__	models/PoseResNet.py	/^    def __init__(self, num_ch_enc, num_input_features=1, num_frames_to_predict_for=1, stride=1):$/;"	m	class:PoseDecoder
+__init__	models/PoseResNet.py	/^    def __init__(self, num_layers = 18, pretrained = True):$/;"	m	class:PoseResNet
+__init__	models/resnet_encoder.py	/^    def __init__(self, block, layers, num_classes=1000, num_input_images=1):$/;"	m	class:ResNetMultiImageInput
+__init__	models/resnet_encoder.py	/^    def __init__(self, num_layers, pretrained, num_input_images=1):$/;"	m	class:ResnetEncoder
+__iter__	kitti_eval/pose_evaluation_utils.py	/^    def __iter__(self):$/;"	m	class:test_framework_KITTI	file:
+__len__	datasets/pair_folders.py	/^    def __len__(self):$/;"	m	class:PairFolder	file:
+__len__	datasets/sequence_folders.py	/^    def __len__(self):$/;"	m	class:SequenceFolder	file:
+__len__	datasets/validation_folders.py	/^    def __len__(self):$/;"	m	class:ValidationSet	file:
+__len__	kitti_eval/pose_evaluation_utils.py	/^    def __len__(self):$/;"	m	class:test_framework_KITTI	file:
+__repr__	logger.py	/^    def __repr__(self):$/;"	m	class:AverageMeter	file:
+alignment	kitti_eval/eval_odom.py	/^        alignment=args.align,$/;"	v
+args	data/prepare_train_data.py	/^args = parser.parse_args()$/;"	v
+args	eval_depth.py	/^args = parser.parse_args()$/;"	v
+args	kitti_eval/eval_odom.py	/^args = parser.parse_args()$/;"	v
+best_error	train.py	/^best_error = -1$/;"	v
+calc_sequence_errors	kitti_eval/kitti_odometry.py	/^    def calc_sequence_errors(self, poses_gt, poses_result):$/;"	m	class:KittiEvalOdom
+cam2pixel	inverse_warp.py	/^def cam2pixel(cam_coords, proj_c2p_rot, proj_c2p_tr, padding_mode):$/;"	f
+cam2pixel2	inverse_warp.py	/^def cam2pixel2(cam_coords, proj_c2p_rot, proj_c2p_tr, padding_mode):$/;"	f
+check_sizes	inverse_warp.py	/^def check_sizes(input, input_name, expected):$/;"	f
+choices	kitti_eval/eval_odom.py	/^                    choices=['scale', 'scale_7dof', '7dof', '6dof'],$/;"	v
+cityscapes_loader	data/cityscapes_loader.py	/^class cityscapes_loader(object):$/;"	c
+collect_scenes	data/cityscapes_loader.py	/^    def collect_scenes(self, city):$/;"	m	class:cityscapes_loader
+collect_scenes	data/kitti_odom_loader.py	/^    def collect_scenes(self, drive):$/;"	m	class:KittiOdomLoader
+collect_scenes	data/kitti_raw_loader.py	/^    def collect_scenes(self, drive):$/;"	m	class:KittiRawLoader
+collect_static_frames	data/kitti_raw_loader.py	/^    def collect_static_frames(self, static_frames_file):$/;"	m	class:KittiRawLoader
+collect_train_folders	data/kitti_odom_loader.py	/^    def collect_train_folders(self):$/;"	m	class:KittiOdomLoader
+collect_train_folders	data/kitti_raw_loader.py	/^    def collect_train_folders(self):$/;"	m	class:KittiRawLoader
+compute_ATE	kitti_eval/kitti_odometry.py	/^    def compute_ATE(self, gt, pred):$/;"	m	class:KittiEvalOdom
+compute_RPE	kitti_eval/kitti_odometry.py	/^    def compute_RPE(self, gt, pred):$/;"	m	class:KittiEvalOdom
+compute_depth	train.py	/^def compute_depth(disp_net, tgt_img, ref_imgs):$/;"	f
+compute_depth_errors	eval_depth.py	/^def compute_depth_errors(gt, pred):$/;"	f
+compute_errors	loss_functions.py	/^def compute_errors(gt, pred, dataset):$/;"	f
+compute_overall_err	kitti_eval/kitti_odometry.py	/^    def compute_overall_err(self, seq_err):$/;"	m	class:KittiEvalOdom
+compute_pairwise_loss	loss_functions.py	/^def compute_pairwise_loss(tgt_img, ref_img, tgt_depth, ref_depth, pose, intrinsic, with_ssim, with_mask, with_auto_mask, padding_mode):$/;"	f
+compute_photo_and_geometry_loss	loss_functions.py	/^def compute_photo_and_geometry_loss(tgt_img, ref_imgs, intrinsics, tgt_depth, ref_depths, poses, poses_inv, max_scales, with_ssim, with_mask, with_auto_mask, padding_mode):$/;"	f
+compute_pose	test_pose.py	/^def compute_pose(pose_net, tgt_img, ref_imgs):$/;"	f
+compute_pose_error	test_pose.py	/^def compute_pose_error(gt, pred):$/;"	f
+compute_pose_with_inv	train.py	/^def compute_pose_with_inv(pose_net, tgt_img, ref_imgs):$/;"	f
+compute_segment_error	kitti_eval/kitti_odometry.py	/^    def compute_segment_error(self, seq_errs):$/;"	m	class:KittiEvalOdom
+compute_smooth_loss	loss_functions.py	/^def compute_smooth_loss(tgt_depth, tgt_img, ref_depths, ref_imgs):$/;"	f
+compute_ssim_loss	loss_functions.py	/^compute_ssim_loss = SSIM().to(device)$/;"	v
+construct_sample	data/kitti_raw_loader.py	/^        def construct_sample(scene_data, i, frame_id):$/;"	f	function:KittiRawLoader.get_scene_imgs
+continue_flag	kitti_eval/eval_odom.py	/^continue_flag = input("Evaluate result in {}? [y\/n]".format(result_dir))$/;"	v
+crawl_folders	datasets/pair_folders.py	/^    def crawl_folders(self,):$/;"	m	class:PairFolder
+crawl_folders	datasets/sequence_folders.py	/^    def crawl_folders(self, sequence_length):$/;"	m	class:SequenceFolder
+crawl_folders	datasets/validation_folders.py	/^def crawl_folders(folders_list, dataset='nyu'):$/;"	f
+default	kitti_eval/eval_odom.py	/^                    default=None)$/;"	v
+default	kitti_eval/eval_odom.py	/^                    default=None,$/;"	v
+depth_pair_visualizer	eval_depth.py	/^def depth_pair_visualizer(pred, gt):$/;"	f
+depth_visualizer	eval_depth.py	/^def depth_visualizer(data):$/;"	f
+device	loss_functions.py	/^device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")$/;"	v
+device	run_inference.py	/^device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")$/;"	v
+device	test_disp.py	/^device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")$/;"	v
+device	test_pose.py	/^device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")$/;"	v
+device	test_vo.py	/^device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")$/;"	v
+device	train.py	/^device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")$/;"	v
+dump_example	data/prepare_train_data.py	/^def dump_example(args, scene):$/;"	f
+euler2mat	inverse_warp.py	/^def euler2mat(angle):$/;"	f
+eval	eval_depth.py	/^eval = DepthEvalEigen()$/;"	v
+eval	kitti_eval/kitti_odometry.py	/^    def eval(self, gt_dir, result_dir,$/;"	m	class:KittiEvalOdom
+eval_tool	kitti_eval/eval_odom.py	/^eval_tool = KittiEvalOdom()$/;"	v
+evaluate_depth	eval_depth.py	/^    def evaluate_depth(self, gt_depths, pred_depths, eval_mono=True):$/;"	m	class:DepthEvalEigen
+flush	logger.py	/^    def flush(self):$/;"	m	class:Writer
+formatter_class	run_inference.py	/^                                 formatter_class=argparse.ArgumentDefaultsHelpFormatter)$/;"	v
+formatter_class	test_disp.py	/^                                 formatter_class=argparse.ArgumentDefaultsHelpFormatter)$/;"	v
+formatter_class	test_pose.py	/^                                 formatter_class=argparse.ArgumentDefaultsHelpFormatter)$/;"	v
+formatter_class	test_vo.py	/^                                 formatter_class=argparse.ArgumentDefaultsHelpFormatter)$/;"	v
+formatter_class	train.py	/^                                 formatter_class=argparse.ArgumentDefaultsHelpFormatter)$/;"	v
+forward	loss_functions.py	/^    def forward(self, x, y):$/;"	m	class:SSIM
+forward	models/DispResNet.py	/^    def forward(self, input_features):$/;"	m	class:DepthDecoder
+forward	models/DispResNet.py	/^    def forward(self, x):$/;"	m	class:Conv3x3
+forward	models/DispResNet.py	/^    def forward(self, x):$/;"	m	class:ConvBlock
+forward	models/DispResNet.py	/^    def forward(self, x):$/;"	m	class:DispResNet
+forward	models/PoseResNet.py	/^    def forward(self, img1, img2):$/;"	m	class:PoseResNet
+forward	models/PoseResNet.py	/^    def forward(self, input_features):$/;"	m	class:PoseDecoder
+forward	models/resnet_encoder.py	/^    def forward(self, input_image):$/;"	m	class:ResnetEncoder
+generate_depth_map	data/kitti_raw_loader.py	/^    def generate_depth_map(self, scene_data, tgt_idx):$/;"	m	class:KittiRawLoader
+generator	kitti_eval/pose_evaluation_utils.py	/^    def generator(self):$/;"	m	class:test_framework_KITTI
+get_P_rect	data/kitti_raw_loader.py	/^    def get_P_rect(self, scene_data, zoom_x, zoom_y):$/;"	m	class:KittiRawLoader
+get_scene_imgs	data/cityscapes_loader.py	/^    def get_scene_imgs(self, scene_data):$/;"	m	class:cityscapes_loader
+get_scene_imgs	data/kitti_odom_loader.py	/^    def get_scene_imgs(self, scene_data):$/;"	m	class:KittiOdomLoader
+get_scene_imgs	data/kitti_raw_loader.py	/^    def get_scene_imgs(self, scene_data):$/;"	m	class:KittiRawLoader
+get_smooth_loss	loss_functions.py	/^    def get_smooth_loss(disp, img):$/;"	f	function:compute_smooth_loss
+gt_dir	kitti_eval/eval_odom.py	/^gt_dir = ".\/kitti_eval\/gt_poses\/"$/;"	v
+help	data/prepare_train_data.py	/^                    (careful, on KITTI some frames have incorrect speed)")$/;"	v
+help	data/prepare_train_data.py	/^                    help="If available (e.g. with KITTI), will store depth ground truth along with images, for validation")$/;"	v
+help	data/prepare_train_data.py	/^                    help="If available (e.g. with KITTI), will store pose ground truth along with images, for validation")$/;"	v
+help	data/prepare_train_data.py	/^                    help="If selected, will delete ground truth depth to save space")$/;"	v
+help	data/prepare_train_data.py	/^                    help='path to original dataset')$/;"	v
+help	kitti_eval/eval_odom.py	/^                    help="Result directory")$/;"	v
+help	kitti_eval/eval_odom.py	/^                    help="alignment type")$/;"	v
+help	kitti_eval/eval_odom.py	/^                    help="sequences to be evaluated",$/;"	v
+help	run_inference.py	/^                    help='depth network architecture.')$/;"	v
+help	train.py	/^                    help='padding mode for image warping : this is important for photometric differenciation when going outside target image.'$/;"	v
+high_res_colormap	utils.py	/^def high_res_colormap(low_res_cmap, resolution=1000, max_value=1):$/;"	f
+init_weights	models/DispResNet.py	/^    def init_weights(self):$/;"	m	class:DispResNet
+init_weights	models/PoseResNet.py	/^    def init_weights(self):$/;"	m	class:PoseResNet
+inverse_warp	inverse_warp.py	/^def inverse_warp(img, depth, pose, intrinsics, rotation_mode='euler', padding_mode='zeros'):$/;"	f
+inverse_warp2	inverse_warp.py	/^def inverse_warp2(img, depth, ref_depth, pose, intrinsics, padding_mode='zeros'):$/;"	f
+last_frame_from_segment_length	kitti_eval/kitti_odometry.py	/^    def last_frame_from_segment_length(self, dist, first_frame, length):$/;"	m	class:KittiEvalOdom
+load_as_float	datasets/pair_folders.py	/^def load_as_float(path):$/;"	f
+load_as_float	datasets/sequence_folders.py	/^def load_as_float(path):$/;"	f
+load_image	data/cityscapes_loader.py	/^    def load_image(self, city, scene_id, frame_id):$/;"	m	class:cityscapes_loader
+load_image	data/kitti_odom_loader.py	/^    def load_image(self, scene_data, tgt_idx):$/;"	m	class:KittiOdomLoader
+load_image	data/kitti_raw_loader.py	/^    def load_image(self, scene_data, tgt_idx):$/;"	m	class:KittiRawLoader
+load_intrinsics	data/cityscapes_loader.py	/^    def load_intrinsics(self, city, scene_id):$/;"	m	class:cityscapes_loader
+load_poses_from_txt	kitti_eval/kitti_odometry.py	/^    def load_poses_from_txt(self, file_name):$/;"	m	class:KittiEvalOdom
+load_speed	data/cityscapes_loader.py	/^    def load_speed(self, city, scene_id, frame_id):$/;"	m	class:cityscapes_loader
+load_tensor_image	test_disp.py	/^def load_tensor_image(filename, args):$/;"	f
+load_tensor_image	test_vo.py	/^def load_tensor_image(filename, args):$/;"	f
+main	data/prepare_train_data.py	/^def main():$/;"	f
+main	eval_depth.py	/^    def main(self):$/;"	m	class:DepthEvalEigen
+main	run_inference.py	/^def main():$/;"	f
+main	test_disp.py	/^def main():$/;"	f
+main	test_pose.py	/^def main():$/;"	f
+main	test_vo.py	/^def main():$/;"	f
+main	train.py	/^def main():$/;"	f
+mean_on_mask	loss_functions.py	/^def mean_on_mask(diff, valid_mask):$/;"	f
+mkdir_if_not_exists	eval_depth.py	/^def mkdir_if_not_exists(path):$/;"	f
+model	models/DispResNet.py	/^    model = DispResNet().cuda()$/;"	v	class:DispResNet
+model	models/PoseResNet.py	/^    model = PoseResNet().cuda()$/;"	v	class:PoseResNet
+n_iter	train.py	/^n_iter = 0$/;"	v
+nargs	kitti_eval/eval_odom.py	/^                    nargs="+",$/;"	v
+opencv_rainbow	utils.py	/^def opencv_rainbow(resolution=1000):$/;"	f
+parseLine	data/kitti_odom_loader.py	/^        def parseLine(L, shape):$/;"	f	function:KittiOdomLoader.read_calib_file
+parser	data/prepare_train_data.py	/^parser = argparse.ArgumentParser()$/;"	v
+parser	eval_depth.py	/^parser = argparse.ArgumentParser(description="NYUv2 Depth options")$/;"	v
+parser	kitti_eval/eval_odom.py	/^parser = argparse.ArgumentParser(description='KITTI evaluation')$/;"	v
+parser	run_inference.py	/^                                 Structure from Motion Learner inference on KITTI Dataset',$/;"	v
+parser	test_disp.py	/^parser = argparse.ArgumentParser(description='Script for DispNet testing with corresponding groundTruth',$/;"	v
+parser	test_pose.py	/^parser = argparse.ArgumentParser(description='Script for PoseNet testing with corresponding groundTruth from KITTI Odometry',$/;"	v
+parser	test_vo.py	/^parser = argparse.ArgumentParser(description='Script for visualizing depth map and masks',$/;"	v
+parser	train.py	/^parser = argparse.ArgumentParser(description='Structure from Motion Learner training on KITTI and CityScapes Dataset',$/;"	v
+pixel2cam	inverse_warp.py	/^def pixel2cam(depth, intrinsics_inv):$/;"	f
+pixel_coords	inverse_warp.py	/^pixel_coords = None$/;"	v
+plot_error	kitti_eval/kitti_odometry.py	/^    def plot_error(self, avg_segment_errs, seq):$/;"	m	class:KittiEvalOdom
+plot_trajectory	kitti_eval/kitti_odometry.py	/^    def plot_trajectory(self, poses_gt, poses_result, seq):$/;"	m	class:KittiEvalOdom
+pose	models/PoseResNet.py	/^    pose = model(tgt_img, ref_imgs[0])$/;"	v	class:PoseResNet
+pose_from_oxts_packet	data/kitti_raw_loader.py	/^def pose_from_oxts_packet(metadata, scale):$/;"	f
+pose_vec2mat	inverse_warp.py	/^def pose_vec2mat(vec, rotation_mode='euler'):$/;"	f
+quat2mat	inverse_warp.py	/^def quat2mat(quat):$/;"	f
+read_calib_file	data/kitti_odom_loader.py	/^    def read_calib_file(self, cid, filepath, zoom_x, zoom_y):$/;"	m	class:KittiOdomLoader
+read_calib_file	data/kitti_raw_loader.py	/^def read_calib_file(path):$/;"	f
+read_raw_calib_file	data/kitti_raw_loader.py	/^    def read_raw_calib_file(self, filepath):$/;"	m	class:KittiRawLoader
+read_scene_data	kitti_eval/pose_evaluation_utils.py	/^def read_scene_data(data_root, sequence_set, seq_length=3, step=1):$/;"	f
+ref_imgs	models/DispResNet.py	/^    ref_imgs = [torch.randn(B, 3, 256, 832).cuda() for i in range(2)]$/;"	v	class:DispResNet
+ref_imgs	models/PoseResNet.py	/^    ref_imgs = [torch.randn(4, 3, 256, 832).cuda() for i in range(2)]$/;"	v	class:PoseResNet
+reset	logger.py	/^    def reset(self, i):$/;"	m	class:AverageMeter
+reset_train_bar	logger.py	/^    def reset_train_bar(self):$/;"	m	class:TermLogger
+reset_valid_bar	logger.py	/^    def reset_valid_bar(self):$/;"	m	class:TermLogger
+resnet_multiimage_input	models/resnet_encoder.py	/^def resnet_multiimage_input(num_layers, pretrained=False, num_input_images=1):$/;"	f
+result_dir	kitti_eval/eval_odom.py	/^result_dir = args.result$/;"	v
+rotation_error	kitti_eval/kitti_odometry.py	/^    def rotation_error(self, pose_error):$/;"	m	class:KittiEvalOdom
+rotx	data/kitti_raw_loader.py	/^def rotx(t):$/;"	f
+roty	data/kitti_raw_loader.py	/^def roty(t):$/;"	f
+rotz	data/kitti_raw_loader.py	/^def rotz(t):$/;"	f
+save_checkpoint	utils.py	/^def save_checkpoint(save_path, dispnet_state, exp_pose_state, is_best, filename='checkpoint.pth.tar'):$/;"	f
+save_sequence_errors	kitti_eval/kitti_odometry.py	/^    def save_sequence_errors(self, err, file_name):$/;"	m	class:KittiEvalOdom
+scale_lse_solver	kitti_eval/kitti_odometry.py	/^def scale_lse_solver(X, Y):$/;"	f
+scale_optimization	kitti_eval/kitti_odometry.py	/^    def scale_optimization(self, gt, pred):$/;"	m	class:KittiEvalOdom
+seqs	kitti_eval/eval_odom.py	/^        seqs=args.seqs,$/;"	v
+set_id_grid	inverse_warp.py	/^def set_id_grid(depth):$/;"	f
+sub2ind	data/kitti_raw_loader.py	/^        def sub2ind(matrixSize, rowSub, colSub):$/;"	f	function:KittiRawLoader.generate_depth_map
+tensor2array	utils.py	/^def tensor2array(tensor, max_value=None, colormap='rainbow'):$/;"	f
+test_framework_KITTI	kitti_eval/pose_evaluation_utils.py	/^class test_framework_KITTI(object):$/;"	c
+tgt_depth	models/DispResNet.py	/^    tgt_depth = model(tgt_img)$/;"	v	class:DispResNet
+tgt_img	models/DispResNet.py	/^    tgt_img = torch.randn(B, 3, 256, 832).cuda()$/;"	v	class:DispResNet
+tgt_img	models/PoseResNet.py	/^    tgt_img = torch.randn(4, 3, 256, 832).cuda()$/;"	v	class:PoseResNet
+train	train.py	/^def train(args, train_loader, disp_net, pose_net, optimizer, epoch_size, logger, train_writer):$/;"	f
+trajectory_distances	kitti_eval/kitti_odometry.py	/^    def trajectory_distances(self, poses):$/;"	m	class:KittiEvalOdom
+transform_from_rot_trans	data/kitti_raw_loader.py	/^def transform_from_rot_trans(R, t):$/;"	f
+translation_error	kitti_eval/kitti_odometry.py	/^    def translation_error(self, pose_error):$/;"	m	class:KittiEvalOdom
+type	kitti_eval/eval_odom.py	/^                    type=int,$/;"	v
+umeyama_alignment	kitti_eval/kitti_odometry.py	/^def umeyama_alignment(x, y, with_scale=False):$/;"	f
+update	logger.py	/^    def update(self, val, n=1):$/;"	m	class:AverageMeter
+upsample	models/DispResNet.py	/^def upsample(x):$/;"	f
+validate_with_gt	train.py	/^def validate_with_gt(args, val_loader, disp_net, epoch, logger, output_writers=[]):$/;"	f
+validate_without_gt	train.py	/^def validate_without_gt(args, val_loader, disp_net, pose_net, epoch, logger, output_writers=[]):$/;"	f
+write	logger.py	/^    def write(self, string):$/;"	m	class:Writer
+write_result	kitti_eval/kitti_odometry.py	/^    def write_result(self, f, seq, errs):$/;"	m	class:KittiEvalOdom
